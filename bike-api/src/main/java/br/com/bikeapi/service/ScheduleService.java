@@ -27,7 +27,7 @@ public class ScheduleService {
 	 * @see {@link www.cronmaker.com}  foi utilizado para criar essa cron
 	 *      expression.
 	 */
-	public static final String CRON_LATE_RENTS = "0 0 0/1 1/1 * ?";
+	public static final String CRON_LATE_RENTS = "0 0/10 * 1/1 * ?";
 //	public static final String CRON_LATE_RENTS = "0 0/1 * 1/1 * ?";	
 	@Value("${application.mail.laterents.message}")
 	private String message;
