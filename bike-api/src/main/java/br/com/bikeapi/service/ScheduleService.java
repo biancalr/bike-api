@@ -19,6 +19,7 @@ public class ScheduleService {
 	 * O valor da variavel significa que para cada aluguel atrasado, sera enviado um
 	 * email comunicando o atraso ao cliente.
 	 * </p>
+	 * <p>Será enviado um e-mail a cada 10 minutos, de acordo com o cronmaker</p>
 	 * <p>
 	 * Lembrando que o estado dos alugueis pode
 	 * mudar constantemente.
