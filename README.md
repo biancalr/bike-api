@@ -1,6 +1,6 @@
 # bike-api
 
-<h3>Bike Application Api</h3>
+<h4>Bike Application Api</h4>
 
 <p>The Bike Api is an application for bike rentals. The client rents a bicycle during the hours contracted, then returns the bike within the tolerance of 1 hour after the rental time's up.
 If the client doesn't return the bicyle within this time, an email is sent every ten minutes to the client. In the future this will result in aditional taxes.</p>
